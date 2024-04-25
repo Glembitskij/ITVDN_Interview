@@ -1,4 +1,5 @@
 ﻿// Яки не було циклу форич яким чином можна було б його замінити.
+// Розкажіть про інтерфейс IEnumerable та IEnumerator
 
 using System.Collections;
 

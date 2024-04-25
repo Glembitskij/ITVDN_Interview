@@ -1,2 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// 1. Наприклад ви створюєте, бібліотеку, в якій є класс Employee та метод по
+//    разрахунку зарплаті - CalculateSalary.
+//    Також є необхідність мати змогу нотифікувати користувача про нарахування йому зарплатні,
+//    але ці нотифікації можуть бути різними. Яким чином можна розробити такий механізм?
+
+// 2. Що таке делагат
+// 3. Що таке подія
+// 4. В чому різниця між між делегатом та подією. 
+
+class Employee
+{
+    public int CalculateSalary()
+    {
+        Random random = new Random();
+        return random.Next(1, 100);
+    }
+}
